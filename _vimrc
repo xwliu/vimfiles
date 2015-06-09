@@ -105,8 +105,14 @@ nmap <leader>q :execute "cd" expand("%:h")<CR>
 nmap <leader>s :1,%s///cg<left><left><left><left>
 
 "取消粘贴缩进
-nmap <leader>p :set paste<CR>
-nmap <leader>pp :set nopaste<CR>
+"nmap <leader>p :set paste<CR>
+"nmap <leader>pp :set nopaste<CR>
+
+"系统剪切
+nmap <leader>y "+y
+vmap <leader>y "+y
+nmap <leader>p "+p
+vmap <leader>p "+p
 
 "文件类型切换
 nmap <leader>fj :set ft=javascript<CR>
