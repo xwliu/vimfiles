@@ -146,6 +146,7 @@ Bundle "ayang/AutoComplPop"
 Bundle "wavded/vim-stylus"
 Bundle "mxw/vim-jsx"
 Bundle "brettof86/vim-swigjs"
+Bundle "digitaltoad/vim-jade"
 
 Bundle 'junegunn/vim-easy-align'
   vmap <Enter> <Plug>(EasyAlign)
